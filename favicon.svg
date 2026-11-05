@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="pdfGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="100%" stop-color="#b91c1c"/>
+    </linearGradient>
+    <linearGradient id="penGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <!-- Document Sheet -->
+  <path d="M12 8 C12 5.79 13.79 4 16 4 L38 4 L50 16 L50 56 C50 58.21 48.21 60 46 60 L16 60 C13.79 60 12 58.21 12 56 Z" fill="url(#pdfGrad)" filter="url(#shadow)" />
+  <!-- Folded Corner -->
+  <path d="M38 4 L50 16 L38 16 Z" fill="#fca5a5" opacity="0.9" />
+  <!-- PDF Lettering -->
+  <text x="31" y="38" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="1">PDF</text>
+  <!-- Edit Pen Badge -->
+  <circle cx="46" cy="46" r="13" fill="#0f172a" />
+  <circle cx="46" cy="46" r="11" fill="url(#penGrad)" />
+  <path d="M42 49 L41 50 L44 50 L49 45 L47 43 Z" fill="#ffffff" />
+</svg>
